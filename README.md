@@ -20,7 +20,7 @@
 ## レポートに関して
 
 - 内容: [レポート問題](https://masataka123.github.io/2026_tohoku_Chern_class/material/0_線形代数_2026.pdf) 授業の資料の最後にレポート問題が書いてあります. 
-- レポート締切: 2025年??月??日 23:59:00 (日本標準時刻, GMT+9)
+- レポート締切: 2026年??月??日 23:59:00 (日本標準時刻, GMT+9)
 - レポート提出方法: 配布したレポート問題に解答し, ??にて提出する. 
 
 
@@ -39,8 +39,8 @@
 - 第0回 (2026/05/25) 談話会
 - 第1回 (2026/05/26) [第1回授業板書](https://masataka123.github.io/2026_tohoku_Chern_class/material/1_授業板書.pdf) 
 - 第2回 (2026/05/27) [第2回授業板書](https://masataka123.github.io/2026_tohoku_Chern_class/material/2_授業板書.pdf) 
-- 第3回 (2025/05/28)  [第3回授業板書](https://masataka123.github.io/2026_tohoku_Chern_class/material/3_授業板書.pdf) 
-- 第4回 (2025/05/29) [第4回授業板書](https://masataka123.github.io/2026_tohoku_Chern_class/material/4_授業板書.pdf) 
+- 第3回 (2026/05/28)  [第3回授業板書](https://masataka123.github.io/2026_tohoku_Chern_class/material/3_授業板書.pdf) 
+- 第4回 (2026/05/29) [第4回授業板書](https://masataka123.github.io/2026_tohoku_Chern_class/material/4_授業板書.pdf) 
 
 
 # 資料に関して
