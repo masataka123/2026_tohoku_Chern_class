@@ -8,7 +8,7 @@
 # 基本的事項
 
 - 担当は岩井雅崇(いわいまさたか)です.
-- 教科書は指定せず, [授業資料](https://masataka123.github.io/2026_tohoku_Chern_class/material/0_線形代数_2026.pdf)を用いる. かなり頑張って作ったので活用してくれると嬉しいです. 
+- 教科書は指定せず, [授業資料](https://masataka123.github.io/2026_tohoku_Chern_class/material/東北大学授業資料_2026_0526.pdf)を用いる. かなり頑張って作ったので活用してくれると嬉しいです. 
 - ミス・誤植・その他何かありましたらmasataka[at]math.sci.osaka-u.ac.jpにご連絡お願いいたします. 対応いたします. ([at]をアットマークに変えてください. スパム対策でこうせざるを得ないのです...)
 
 
@@ -19,7 +19,7 @@
 
 ## レポートに関して
 
-- 内容: [レポート問題](https://masataka123.github.io/2026_tohoku_Chern_class/material/0_線形代数_2026.pdf) 授業の資料の最後にレポート問題が書いてあります. 
+- 内容: [レポート問題](https://masataka123.github.io/2026_tohoku_Chern_class/material/東北大学授業資料_2026_0526.pdf) 授業の資料の最後にレポート問題が書いてあります. 
 - レポート締切: 2026年??月??日 23:59:00 (日本標準時刻, GMT+9)
 - レポート提出方法: 配布したレポート問題に解答し, ??にて提出する. 
 
@@ -28,7 +28,7 @@
 
 ガイダンス資料と授業資料をまとめました. 
 
-[授業資料+ガイダンス資料+レポート](https://masataka123.github.io/2026_tohoku_Chern_class/material/0_線形代数_2026.pdf)
+[授業資料+ガイダンス資料+レポート](https://masataka123.github.io/2026_tohoku_Chern_class/material/東北大学授業資料_2026_0526.pdf)
 
 以下は訂正リスト・バージョンアップの情報です. 間違いがあればこのファイルを訂正していきます. 
 また内容を追加予定で, その場合には[岩井のホームページ](https://masataka123.github.io/blog3/sub2/)に更新していきます. 
