@@ -826,41 +826,41 @@ E_p:=\pi^{-1}(p)
 は \(r\) 次元の \(\mathbb{C}\)-ベクトル空間である. この \(E_p\) を \(p\) 上の fiber と呼ぶ.
 \item[(b)] 任意の点 \(p\in X\) に対して, \(p\) の開近傍 \(U\) と \(C^\infty\) 級微分同相写像
 \[
-h\colon \pi^{-1}(U)\longrightarrow U\times \mathbb{C}^r
+\rho\colon \pi^{-1}(U)\longrightarrow U\times \mathbb{C}^r
 \]
 が存在し, 次の図式を可換にする.
 \[
 \xymatrix{
-\pi^{-1}(U) \ar[rr]^{h} \ar[dr]_{\pi} && U\times \mathbb{C}^r \ar[dl]^{\mathrm{pr}_1} \\
+\pi^{-1}(U) \ar[rr]^{\rho} \ar[dr]_{\pi} && U\times \mathbb{C}^r \ar[dl]^{\mathrm{pr}_1} \\
 & U &
 }
 \]
 ここで \(\mathrm{pr}_1\colon U\times \mathbb{C}^r\to U\) は第一射影である. 
 特に
 \(
-\mathrm{pr}_1\circ h=\pi
+\mathrm{pr}_1\circ \rho=\pi
 \)
  なので各 \(p\in U\) に対して 
  \[
-h(E_p) \subset \{p\}\times \mathbb{C}^r\]
+\rho(E_p) \subset \{p\}\times \mathbb{C}^r\]
 であり, 制限写像による写像
 \[
-h^p\colon E_p\longrightarrow \{p\}\times \mathbb{C}^r \overset{\mathrm{pr}_2}{\longrightarrow} \mathbb{C}^r
+\rho^p\colon E_p\longrightarrow \{p\}\times \mathbb{C}^r \overset{\mathrm{pr}_2}{\longrightarrow} \mathbb{C}^r
 \]
 は \(\mathbb{C}\)-ベクトル空間の同型である. 
 ここで \(\mathrm{pr}_2\colon \{p\}\times \mathbb{C}^r\to \mathbb{C}^r\) は第二射影とする.
 
 またrank \(1\) のベクトル束を直線束という.
 \end{enumerate}
-\(E\) を全空間, \(X\) を底空間, \(\pi\) を射影と呼ぶ. また, 組 \((U,h)\) を局所自明化と呼ぶ.
+\(E\) を全空間, \(X\) を底空間, \(\pi\) を射影と呼ぶ. また, 組 \((U,\rho)\) を局所自明化と呼ぶ.
 \end{defn}
 \begin{defn}
-上の定義で, 写像 \(\pi\colon E\longrightarrow X\) が rank \(r\) の正則複素ベクトル束であるとは, 次が成り立つこと
+上の定義で, 写像 \(\pi\colon E\longrightarrow X\) が rank \(r\) の正則複素ベクトル束であるとは, 次が成り立つこと/
 \begin{itemize}
 \item \(E\) が \(n+r\) 次元複素多様体で \(\pi\) が正則写像であり, 
 \item (a) および (b) において, 任意の点 \(p\in X\) に対して, \(p\) の開近傍 \(U\) と双正則写像
 \[
-h\colon \pi^{-1}(U)\longrightarrow U\times \mathbb{C}^r
+\rho\colon \pi^{-1}(U)\longrightarrow U\times \mathbb{C}^r
 \]
 が存在し, 各 fiber 上で \(\mathbb{C}\)-ベクトル空間の同型を誘導する
 \end{itemize}
@@ -885,18 +885,18 @@ $E=X \times \C^r$とし, $\pi : E \to X$を第一射影とすれば, $E$はrank 
 
 \subsubsection{変換関数}
 
-二つの局所自明化 \((U,h_U)\) と \((V,h_V)\) をとる. \(U\cap V\) 上で合成写像
+二つの局所自明化 \((U,\rho_U)\) と \((V,\rho_V)\) をとる. \(U\cap V\) 上で合成写像
 \[
-h_U\circ h_V^{-1}\colon (U\cap V)\times \mathbb{C}^r 
-\overset{h_V^{-1}}{\longrightarrow} 
+\rho_U\circ \rho_V^{-1}\colon (U\cap V)\times \mathbb{C}^r 
+\overset{\rho_V^{-1}}{\longrightarrow} 
 \pi^{-1}(U \cap V)
-\overset{h_U}{\longrightarrow} 
+\overset{\rho_U}{\longrightarrow} 
 (U\cap V)\times\mathbb{C}^r
 \]
 を考える. この写像は各点 \(p\in U\cap V\) に対して fiber 方向の線形同型を定める. すなわち,
 \[
 T_{UV}(p)
-=h_U\circ (h_V)^{-1}(p)
+=\rho_U\circ (\rho_V)^{-1}(p)
 \colon \mathbb{C}^r(=\pi^{-1}(p))\longrightarrow \mathbb{C}^r(=\pi^{-1}(p))
 \]
 とおくと, 写像
@@ -915,7 +915,7 @@ T_{UV}
 \end{equation}
 が得られる. 
 \begin{defn}
-この \(T_{UV}\) を, 局所自明化 \((U,h_U)\) と \((V,h_V)\) に関する変換関数と呼ぶ.
+この \(T_{UV}\) を, 局所自明化 \((U,\rho_U)\) と \((V,_V)\) に関する変換関数と呼ぶ.
 \end{defn}
 
 変換関数 \(T_{UV}\) は次の両立条件を満たす.
@@ -996,7 +996,7 @@ E:=\widetilde{E}/\sim
 \item[(G-1)] $T_{UV}\,T_{VW}\,T_{WU}=\mathrm{Id}_r
 \text{ on } U\cap V\cap W,$
 \item[(G-2)] $T_{UU}=\mathrm{Id}_r
-\qquad
+\quad
 \text{ on } U.$
 \end{enumerate}
 \end{suma}
@@ -1788,6 +1788,8 @@ $$
 \right)
 $$
 で与えられる. 
+
+$T_X$のHermite計量が$X$のHermite計量(Riemann軽量の複素版)である. これは\ref{subsec-Hermite-Kahler}節で扱う.
 \end{example}
 
 \begin{example}[標準束]
@@ -3560,6 +3562,7 @@ R_{f^*(E_1)}=f^*R_{E_1}.
 
 
 \subsection{Hermite計量と K\"ahler 計量}
+\label{subsec-Hermite-Kahler}
 
 \begin{defn}[Hermite 計量とK\"ahler 計量]
 \(X\) を \(n\) 次元複素多様体とし, \(T_X\) を正則接ベクトル束とする. \(X\) のHermite計量 \(g\) を \(T_X\) の Hermite 計量 \(h\) と定義する.
@@ -4079,6 +4082,7 @@ $L$がampleであることはpositiveであることと同値.
 \end{thm}
 
 \subsection{代数幾何学のpositivityと特異Hermite計量・多変数複素解析とのつながり}
+\label{subsec-positivity}
 これは代数幾何に詳しい人向けである. 授業でも扱わない予定. 
 気になる人は\cite[Section 5]{Dem12}を参照のこと. 
 
@@ -4529,6 +4533,7 @@ $$
 \(h\) が変わった分を \(d\)-exact の分が吸収してくれる. これは少し面倒なので認める. 詳しくは \cite[Ch.2 (2.2.5)]{Kob14} を参照.
 
 \begin{thm}
+\label{thm-chern-weil}
 計量を用いて,
 \[
 c_i(E):=[c_i(E, h)] \in H^{2i}(X, \R)
@@ -4563,7 +4568,10 @@ f^{*}F_{E, h}
 \(\det\left(\mathrm{Id}_r+\frac{\sqrt{-1}}{2\pi }F_{f^{*}E,f^{*}h}\right)\) を展開すれば
 \(c_i(f^{*}E)=f^{*}c_i(E)\) を得る.
 
-[Axiom 3] \(c(E_1 \oplus E_2)=c(E_1)c(E_2)\) を示せばよい. \(E_1\) に計量 \(h_1\), \(E_2\) に計量 \(h_2\) を入れると, \ref{defn-tensor-connection} から \(E_1\oplus E_2\) に \(h_1 \oplus h_2\) という計量が入り
+[Axiom 3] \(c(E_1 \oplus E_2)=c(E_1)c(E_2)\) を示せばよい. 
+(実は$E_1, E_2$はベクトル束でも良い.)
+
+\(E_1\) に計量 \(h_1\), \(E_2\) に計量 \(h_2\) を入れると, \ref{defn-tensor-connection} から \(E_1\oplus E_2\) に \(h_1 \oplus h_2\) という計量が入り
 \[
 F_{E_1 \oplus E_2,h_1\oplus h_2}
 = 
@@ -4634,9 +4642,9 @@ c_1(\mathcal{O}(-1))=\left[\frac{\sqrt{-1}}{2\pi }F_{\mathcal{O}(-1),h_{\mathrm{
 \frac{\sqrt{-1}}{2\pi }R_1^{\,r}&\frac{\sqrt{-1}}{2\pi }R_2^{\,r}& \cdots &1+\frac{\sqrt{-1}}{2\pi }R_r^{\,r}
 \end{pmatrix}
 \\
-&:=1+\underbrace{c_1(E, D)}_{\text{\((1,1)\)-form}}+
-\underbrace{c_2(E, D)}_{\text{\((2,2)\)-form}}+\cdots+
-\underbrace{c_r(E, D)}_{\text{\((r,r)\)-form}}
+&:=1+\underbrace{c_1(E, D)}_{\text{\(2\)-form}}+
+\underbrace{c_2(E, D)}_{\text{\(4\)-form}}+\cdots+
+\underbrace{c_r(E, D)}_{\text{\(2r\)-form}}
 \end{align*}
 と定義する. 
 そして
@@ -4823,7 +4831,7 @@ c_2(E)=c_2(S)+c_1(S)c_1(Q)+c_2(Q)
 \end{lem}
 
 \begin{proof}
-完全列が$C^{\infty}$級の同型を用いて \(E\underset{C^{\infty}}{\cong}S \oplus Q\) と直和分解できる. これを示せば Whitney 公式より明らかである. これは \(\pi : E \to Q\) について, \(\rho : Q \to E\) という \(C^\infty\) 級束写像で
+完全列が$C^{\infty}$級の同型を用いて \(E\underset{C^{\infty}}{\cong}S \oplus Q\) と直和分解できる. これを示せば Whitney 公式より明らかである.\footnote{厳密に言えば, $E_1, E_2$はベクトル束なので, 定理\ref{thm-chern-weil}のAxiom 3のような証明が必要.} これは \(\pi : E \to Q\) について, \(\rho : Q \to E\) という \(C^\infty\) 級束写像で
 \(\pi \circ \rho =\mathrm{Id}_Q\) となるものの存在を言えばよい.
 
 まず局所開集合 \(U\) 上は存在する. 実際, 適当に正則なlocal frame をとることで
@@ -8229,6 +8237,7 @@ $T_X$がnefやGriffith semipositive, $-K_X$がnefやGsemipositiveの場合の構
 \label{sec-Miyaoka}
 \cite{Miy87, Cao13, Ou23, IM22, IMM24}の内容を扱う. 
 以下$(X, \omega, g)$をコンパクトK\"ahler多様体とする. 
+またampleやnefに関しては\ref{subsec-positivity}節参照\footnote{わからなければ"ample=positive", "nef = semipositive"に言い換えても良い. また厳密に言えば後者は間違いである. }
 
 \subsection{Miyaoka--Yau 不等式の別証明}
 
@@ -8497,13 +8506,13 @@ c_2(T_X) [\omega]^{n-2}\geq 0
 まず以下の簡単な補題を示す. これはレポート問題とする.
 \begin{lem}
 \label{lem-miyaoka-1}
-1以上の整数$r_1, \ldots, r_l, n$と, 実数$\mu_1, \ldots, \mu_l, d$が
+1以上の整数$r_1, \ldots, r_l$, 2以上の整数$n$, 実数$\mu_1, \ldots, \mu_l, d$ (ただし$d>0$)が
 \[
 \mu_1 > \cdots > \mu_l \geq 0
 \quad
 \sum_{i=1}^{l}r_i\mu_i=d
 \quad 
-\sum_{i=1}^{l}r_i\mu_i=n
+\sum_{i=1}^{l}r_i=n
 \]
 を満たしているとする. 
 この時次が成り立つ.
@@ -8651,13 +8660,13 @@ $2c_2(T_X)[\omega]^{n-2} \ge 0$である
 まず以下の簡単な補題を示す. これはレポート問題とする.
 \begin{lem}
 \label{lem-miyaoka-2}
-1以上の整数$r_1, \ldots, r_l, n$と, 実数$\mu_1, \ldots, \mu_l, d$が
+1以上の整数$r_1, \ldots, r_l$, 3以上の整数$n$, 実数$\mu_1, \ldots, \mu_l, d$ (ただし$d>0$)が
 \[
 \mu_1 > \cdots > \mu_l \geq 0
 \quad
 \sum_{i=1}^{l}r_i\mu_i=d
 \quad 
-\sum_{i=1}^{l}r_i\mu_i=n
+\sum_{i=1}^{l}r_i=n
 \]
 を満たしているとする. 
 
@@ -8871,7 +8880,7 @@ d
 
 \begin{thm}\cite{Miy87}\cite{Miy88a}
 $X$が3次元多様体で$K_X$ nefならば
-$H^0(X, mK_X) \neq 0$となる$m \in \in$が存在する. 
+$H^0(X, mK_X) \neq 0$となる$m \in \N$が存在する. 
 \end{thm}
 \begin{proof}
 以下
@@ -9041,7 +9050,7 @@ $$
   \setlength{\itemsep}{0cm} % 項目間
 \item この授業は\underline{対面授業}である. 
 %\underline{木曜3限(13:30-15:00)に共B307}にて授業を行う.
-\item ???や授業ホームページ(\url{https://masataka123.github.io/2026_tohoku_Chern_class/})にて「授業の資料・授業の板書」などをアップロードしていく. 
+\item 授業ホームページ(\url{https://masataka123.github.io/2026_tohoku_Chern_class/})にて「授業の資料・授業の板書」などをアップロードしていく. 
 QRコードは下にある.
 \begin{figure}[htbp]
 \begin{center}
@@ -9075,21 +9084,27 @@ QRコードは下にある.
 
 {\Large \underline{成績に関して}}
 
-レポートでつけます. 成績評価に関してはあまり何も考えていないので, 松村先生や他の東北大学の先生に情報を聞いて決めます.
+出席とレポートでつけます. 
 
 
 \medskip
 {\Large \underline{レポートに関して}}
 
-レポートは資料の最後にあります. 紙で欲しい人には水曜日に渡します. 
+レポートは資料の最後にあります.　紙でもお渡しいたします. 
 \begin{itemize}
   \setlength{\parskip}{0cm} 
   \setlength{\itemsep}{0cm}
-\item 内容: レポート問題 授業の資料の最後にレポート問題が書いてある.
-\item レポート締切: 2026年??月??日 23:59:00 (日本標準時刻, GMT+9)
-\item レポート提出方法: 配布したレポート問題に解答し, ??にて提出する. 
+\item レポート締切: 2026年6月12日(金) 17:00 (日本標準時刻, GMT+9)
+\item レポート提出方法: 配布したレポート問題に解答し, 東北大学数学事務室前のレポートボックスにて提出する. 
 \end{itemize}
 
+レポートは問題5問で, 出来によって成績をつけます. 
+またレポート問題は授業の内容を全くわからなくても解ける問題が2つほどあります. 
+
+
+締め切りを早めにしてるのは, (私も皆さんも)レポートの存在を忘れないようにするためです. 
+
+\medskip
 {\Large \underline{授業予定}}
 
 \begin{enumerate}
@@ -9111,7 +9126,6 @@ QRコードは下にある.
 \item 最後は"Yoichi Miyaoka. The Chern classes and Kodaira dimension of a minimal variety. In Algebraic geometry, Sendai,"と私たちの論文(Iwai-Matsumura-Müller 25)に基づく. 
 \item 一部わからない部分は他の論文やchatGPTに聞いた内容を含む. 
 \item 今回の内容は微分幾何・複素幾何によってます.  これは現在, 微分幾何の勉強と研究をしているからです. 代数幾何学を知っていると得する(かも). 
-\item レポート問題は授業の内容を全くわからなくても解ける問題が2つほどある. 
 \end{itemize}
 
 
@@ -9124,7 +9138,7 @@ QRコードは下にある.
 \]
 となるfiltrationで各$G_i := E_i / E_{i-1}$ がrank $r_i$の ベクトル束になるものが存在すると仮定する.
 
-1.
+1.$\Delta(E):=c_1(E)^2 -  2 \mathrm{rank}(E) \ch_2(E)$と定義する. 
 $$
 0 \to E_{i-1} \to E_{i} \to G_i  \to 0
 $$
@@ -9161,11 +9175,11 @@ $$
 $$
 ベクトル束の完全系列\(
 0\longrightarrow S\longrightarrow E\longrightarrow Q\longrightarrow 0
-\)について, 
+\)について, 以下の等式を示せ. 
 \[
 \rank S (\mu(E)-\mu(S))+\rank Q(\mu(E)-\mu(Q))=0
 \]
-であることを示せ. 
+
 
 
 \underline{問題3.}
@@ -9174,20 +9188,20 @@ $$
 \mu^{\max}(E) := \sup \left\{ \mu(F) \mid 0 \neq F \subseteq E, \, F \text{ torsion-free} \right\}.
 $$
 $$
-\mu^{\min}(E) := \inf \left\{ \mu(Q) \mid E \twoheadrightarrow Q, \, Q \text{ torsion-free} \right\}.
+\mu^{\min}(E) := \inf \left\{ \mu(Q) \mid E \twoheadrightarrow Q, \, Q \text{ torsion-free and $Q \neq 0$} \right\}.
 $$
 ここで$F =E$, $Q=E$も含めることに注意する. 
 この時$E$-semistable は$\mu^{\max}(E) = \mu(E)$と同値であり,  また$\mu^{\min}(E) = \mu(E)$と同値であることを示せ
 
 
 \underline{問題4.} 
-1以上の整数$r_1, \ldots, r_l, n$と, 実数$\mu_1, \ldots, \mu_l, d$が
+1以上の整数$r_1, \ldots, r_l$, 2以上の整数$n$, 実数$\mu_1, \ldots, \mu_l, d$ (ただし$d>0$)が
 \[
 \mu_1 > \cdots > \mu_l \geq 0
 \quad
 \sum_{i=1}^{l}r_i\mu_i=d
 \quad 
-\sum_{i=1}^{l}r_i\mu_i=n
+\sum_{i=1}^{l}r_i=n
 \]
 を満たしているとする. 
 この時次が成り立つことを示せ
@@ -9197,20 +9211,20 @@ $$
 \end{enumerate}
 
 \underline{問題5.} 
-1以上の整数$r_1, \ldots, r_l, n$と, 実数$\mu_1, \ldots, \mu_l, d$が
+1以上の整数$r_1, \ldots, r_l$, 3以上の整数$n$, 実数$\mu_1, \ldots, \mu_l, d$ (ただし$d>0$)が
 \[
 \mu_1 > \cdots > \mu_l \geq 0
 \quad
 \sum_{i=1}^{l}r_i\mu_i=d
 \quad 
-\sum_{i=1}^{l}r_i\mu_i=n
+\sum_{i=1}^{l}r_i=n
 \]
 を満たしているとする. 
 
 この時次が成り立つことを示せ
 \begin{enumerate}
 \item  $l\ge 2$を仮定するとき, $\frac{1}{d} \sum_{i=2}^{l}r_i \mu_i^2 \le \mu_1 - \frac{r_1 \mu_1^{2}}{d}$である.
-\item $l, r_1\ge 2$を仮定する時
+\item $l \ge 2, r_1\ge 2$を仮定する時
 \begin{align*}
 -\frac{r_1^2}{d(r_1+1)}\mu_1^2
 -\frac{1}{d} \sum_{i=2}^{l}r_i \mu_i^2
@@ -9245,8 +9259,8 @@ $$
 \end{enumerate}
 
 \newpage
-\section{談話会の講演内容}
-\xr{談話会の講演内容をtexにする. }
+%\section{談話会の講演内容}
+%\xr{談話会の講演内容をtexにする. }
 
 \section{vanishing Theorem}
 \xr{\cite[3章]{Kob14}の内容. 勉強して理解できたら書きます} 
@@ -9777,9 +9791,12 @@ E^{\otimes m}\otimes E^{*\otimes m}=(\End(E))^{\otimes m},\qquad m\ge 0,
 \section{stableならばHermite-Einstein計量を持つことの証明}
 \xr{今勉強中なので整理できたら書きます. \cite{JMS22}の証明を書いていきます.}
 
+\section{Yauの定理の証明}
+\xr{今勉強中なので整理できたら書きます}
 
 \section{Enokiのgeneric nefness theoremの証明}
 \xr{今勉強中なので整理できたら書きます}
+
 
 
 
