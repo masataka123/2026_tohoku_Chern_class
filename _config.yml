@@ -1,3 +1,9 @@
 theme: jekyll-theme-cayman
+
 title: "2026年度春夏学期 東北大学集中講義"
 description: "5月25日(月) 16:00~17:00, 5月26日(火)～5月29日(金) 15:00～18:00 場所 川井ホール"
+
+url: "https://masataka123.github.io"
+baseurl: "/2026_tohoku_Chern_class"
+
+markdown: kramdown
