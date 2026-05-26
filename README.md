@@ -38,9 +38,9 @@
 
 - 第0回 (2026/05/25) 談話会
 - 第1回 (2026/05/26) [第1回授業板書](https://masataka123.github.io/2026_tohoku_Chern_class/material/1_授業板書.pdf) 
-- 第2回 (2026/05/27) [第2回授業板書](https://masataka123.github.io/2026_tohoku_Chern_class/material/2_授業板書.pdf) 
-- 第3回 (2026/05/28)  [第3回授業板書](https://masataka123.github.io/2026_tohoku_Chern_class/material/3_授業板書.pdf) 
-- 第4回 (2026/05/29) [第4回授業板書](https://masataka123.github.io/2026_tohoku_Chern_class/material/4_授業板書.pdf) 
+- 第2回 (2026/05/27) 
+- 第3回 (2026/05/28)  
+- 第4回 (2026/05/29) 
 
 
 # 資料に関して
