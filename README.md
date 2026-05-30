@@ -28,10 +28,12 @@
 
 ガイダンス資料と授業資料をまとめました. 
 
-[授業資料+ガイダンス資料+レポート](https://masataka123.github.io/2026_tohoku_Chern_class/material/東北大学授業資料_2026_0526.pdf)
+[授業資料+ガイダンス資料+レポート ver1](https://masataka123.github.io/2026_tohoku_Chern_class/material/東北大学授業資料_2026_0526.pdf)
 
 以下は訂正リスト・バージョンアップの情報です. 間違いがあればこのファイルを訂正していきます. 
-また内容を追加予定で, その場合には[岩井のホームページ](https://masataka123.github.io/blog3/sub2/)に更新していきます. 
+
+- [授業資料 ver2]()
+内容を追加したものは[岩井のホームページ](https://masataka123.github.io/blog3/sub2/)でもアップロードしてます.
 
 # 授業の板書の画像のpdf
 授業の板書をアップロードしていきます.  
@@ -40,7 +42,8 @@
 - 第1回 (2026/05/26) [第1回授業板書](https://masataka123.github.io/2026_tohoku_Chern_class/material/1_授業板書.pdf) 
 - 第2回 (2026/05/27) [第2回授業板書](https://masataka123.github.io/2026_tohoku_Chern_class/material/2_授業板書.pdf) 
 - 第3回 (2026/05/28) [第3回授業板書](https://masataka123.github.io/2026_tohoku_Chern_class/material/3_授業板書.pdf) 
-- 第4回 (2026/05/29) 
+- 第4回 (2026/05/29)  [第4回授業板書](https://masataka123.github.io/2026_tohoku_Chern_class/material/4_授業板書.pdf) 
+
 
 
 # 資料に関して
